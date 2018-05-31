@@ -28,8 +28,4 @@ Add the bot via QR code or click the button below
 
 see https://yaoandy107.github.io/line-bot-tutorial/
 
-## Developer
-
-- programmer: [＠tigercosmos](https://github.com/tigercosmos), [@csinrn](https://github.com/csinrn)
-- designer: 黃裕庭
 
