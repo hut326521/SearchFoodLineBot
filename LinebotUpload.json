@@ -1,10 +1,10 @@
 {
   "type": "service_account",
   "project_id": "linebotupload",
-  "private_key_id": "64c5c634ab57372cbbcbde0529c120dc21350e09",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDWL9MzACKtpnL0\nUPyo461pgqjPfJSP1IhhSwOou1JtsKrF6THZO5BiBwHo30x8MMQPIHXlj9HOigqc\n48cZO2omNn9ClrcvicfZ2otO1fxj+RsjSUk101ehVxCLVx/Gvs5ukooCFNx4Z09+\nBHIgP7XuNxf2beEYdSgBUZOECM3xWuj6lz7PQLjr0z11gZI3pBs2C8cCgzjtO3cD\nA+NJzqmUegoTWyd48DSqHT2PPJMAYRpu/mnArHhiyEVsV4Nq/byGWa1JxG6AJQx8\nIjpbmxeLzvuc9pPGGyT2HKXZL8PzGIklD39qfGS/vCfFtVJsgvjWy9FVT3zMmVly\nTb8nfz5TAgMBAAECggEAR4ixgNcKvfRZcD+cIsvnntWEi8eP1nmlEtl631+wp/HZ\nF0BK5cJ+9j5g5OWvJcsjr+mndoQSDmkMIlnwpPyy9xA8cIDlrXrWxGu5GxtcsAcC\niUZwrQlouvnZDLCMbFRNnaBTd16AQ7Y9VlklxJ+Co4zC9Aq+oux97/LO0coe/fxC\nXr/q4p8OjOkhHf3ID4JLY48tkov9IHDWWoizKSg0Lf2SpB11l8ac1UopJ4vt7EKU\nr5vTx5q7AKAQBL5vRu74yYBusYaGru6tF39UmyeEoIFJ19+faGYXDNJmZ+rFFgwY\nvVWpyicyLgLfWjGYfY2Iai2SACWqH0YWgGiinrfIAQKBgQDvtmgFGh0gsGSK+yi/\njVHajGae4bQNPUA1z2qcP6mRSilk/iTSvmY6v5CBNiRZyrv0wk8lfNtffppOodzb\n9Vb7iSiZhj/zGc31G20Q8Aunz1sMVCelepL5uejd6wxQmynEctIleAzMANI+YsZO\nBYsQUcIDbXD0+OM050ExeebAqwKBgQDkvWu+ixrJHxXU089lOSvDNs7f38MCvynF\nj05DdlzkYa+zqNw0qt0yeo+/gmRSwE5OQdMoJ5OvxquGFGpTj38VqW9MEX3WGJ3f\n6etKC8ryou7yu5kjWPD4fNcclNyPx0ON8VKZ8vxdXPu4ZDuGGKz8FCBOHpwqM7WD\niBCijRmI+QKBgBNYbDKlNd6Sfbq9pD85P3bcx9dgrbA31jvBfoAXny6rhoWxAPXF\nCekJ1ram0O4yL1MEb3C+D9I4HGnmJDXYKeno2s7xB64t0fJLAVVRmg8z68wl6oEv\nUDc5KrLmKjtDGm7ROWZuttGr60u/mvNm/R8XCgpOxcPvZh653wgIJ3g7AoGBANFk\nva9OdBTNChUsWN0W+wLXt4Wlt0VabgjWaRTE08CV1FwpJnxoNdmx7MmpueEu/gAR\nrhVCNaZhvj8djUA1SmcwFhySnplRK6UA5E2CgiSgFxHJviRnlSBEWD9n3okYJrVX\nxv/7Oh7VsfFYgEz/ZcvVOMWKq/bOI0nnUyMa+9cxAoGAHGW1mc7bmYlaT+q9aCQd\nwux+hKxI4zAYKnrm4CDeZa0bUvUe4lektymrvN2SZVWyQjiGuNiLBR3CgyV4c4DI\nzAXmnBgs0GFkfPl+l5VCtW2Ka6sxw9ywQimxwKf5O9gyJU86UiC+ycB20Gy37Pgk\naGz3BhZp8gHmTFgCJi6mF+c=\n-----END PRIVATE KEY-----\n",
+  "private_key_id": "(Your_Private_Key_ID)",
+  "private_key": "-----BEGIN PRIVATE KEY-----\(Your_Private_Key)\n-----END PRIVATE KEY-----\n",
   "client_email": "linebotupload@linebotupload.iam.gserviceaccount.com",
-  "client_id": "110997342989725102904",
+  "client_id": "(Your_Client_ID)",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://accounts.google.com/o/oauth2/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
