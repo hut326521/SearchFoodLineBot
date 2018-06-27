@@ -17,7 +17,7 @@ Add the bot via QR code or click the button below
 
 【快速使用】
 - 抽地名(ex.抽中壢，抽中央大學)，會在該地名周圍的餐廳抽一家營業中的餐廳出來
-- 傳送位置訊息，不一定要在真實的位置，搜尋該位置五百公尺內的所有餐廳與google上之評價與營業狀況
+- 傳送位置訊息，不一定要在真實的位置，搜尋該位置五百公尺內的40家餐廳與google上之評價與營業狀況等等，並按照評價星數排序
 
 ## DEMO
 ![alt tag](https://i.imgur.com/MDuo3My.png)
