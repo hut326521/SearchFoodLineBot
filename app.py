@@ -31,7 +31,7 @@ class Rname(object):
 app = Flask(__name__)
 
 # Channel Access Token
-line_bot_api = LineBotApi('hl7jHmLtYnR2H1UCaxWhLv2TMs9Hnc8J1uB+ovJ4bUKm3/NP+0jwwRWIavmRb/RTXr9KPRNGXcZ+8znDb6Eg/Z/RYOXb9j+QuiRPY1Um75aFZrt8p3WVo+5zaHcFEzogSJ5N/dNeh4tNCECcTkEefQdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('(Your_LineBotAPI)')
 # Channel Secret
 handler = WebhookHandler('7f1f42c9fcbb35f67deeae9cde99ded3')
 
@@ -77,7 +77,7 @@ def handle_message(event):
         if(event.message.text[0]=="抽"):
             newm = event.message.text.strip('抽')
             newm = newm.strip()
-            r = requests.get('https://maps.googleapis.com/maps/api/place/textsearch/xml?query='+ newm +'&opennow=true&language=zh-TW&type=restaurant&key=AIzaSyBeL3-P6F9yGg27Vns0c6e65-cIFqkhFcA')
+            r = requests.get('https://maps.googleapis.com/maps/api/place/textsearch/xml?query='+ newm +'&opennow=true&language=zh-TW&type=restaurant&key=(Your_GoogleAPIKey)')
             r.encoding = 'utf-8'
             soup = BeautifulSoup(r.content, 'html.parser')
             rname = []
@@ -95,7 +95,7 @@ def handle_message(event):
         worksheet.append_row((correct_right_now.strftime('%Y/%m/%d %H:%M'), event.source.user_id, lat, lng))
 
 
-        r = requests.get('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location='+repr(lat)+','+repr(lng)+'&radius=400&type=restaurant&language=zh-TW&key=AIzaSyBeL3-P6F9yGg27Vns0c6e65-cIFqkhFcA')
+        r = requests.get('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location='+repr(lat)+','+repr(lng)+'&radius=400&type=restaurant&language=zh-TW&key=(Your_GoogleAPIKey)')
         r.encoding = 'utf-8'
         time.sleep(1)
         repeat=0
@@ -109,7 +109,7 @@ def handle_message(event):
                 break
             nextpageid=j[repeat-1]['next_page_token']
             time.sleep(1)
-            r = requests.get('https://maps.googleapis.com/maps/api/place/nearbysearch/json?pagetoken=' + nextpageid + '&language=zh-TW&key=AIzaSyBeL3-P6F9yGg27Vns0c6e65-cIFqkhFcA')
+            r = requests.get('https://maps.googleapis.com/maps/api/place/nearbysearch/json?pagetoken=' + nextpageid + '&language=zh-TW&key=(Your_GoogleAPIKey)')
             j.append(json.loads(r.content))
             endj += j[repeat]['results']
         for i in range(0,len(endj)):
@@ -138,23 +138,6 @@ def handle_message(event):
         worksheet.append_row((correct_right_now.strftime('%Y/%m/%d %H:%M'), event.message.type, event.message.type, event.source.user_id))
         message = TextSendMessage(text=event.message.type)
         line_bot_api.reply_message(event.reply_token, message)
-
-
-
-
-
-
-
-
-
-"""
-message2 = ImageSendMessage(
-    original_content_url='https://1.bp.blogspot.com/-GKiOtRUSOY0/UOh61ubADAI/AAAAAAAAAIE/pjvq0L9s-gA/s1600/IMG_2720.JPG',
-    preview_image_url='https://1.bp.blogspot.com/-GKiOtRUSOY0/UOh61ubADAI/AAAAAAAAAIE/pjvq0L9s-gA/s1600/IMG_2720.JPG'
-)
-line_bot_api.reply_message(event.reply_token, message2)
-"""
-
 
 
 
