@@ -23,6 +23,10 @@ Add the bot via QR code or click the button below
 ![alt tag](https://i.imgur.com/MDuo3My.png)
 ![alt tag](https://i.imgur.com/lCiglpJ.png)
 
+## 使用Google試算表API接收使用者數據
+
+![alt tag](https://i.imgur.com/3JxsXaa.png)
+
 
 ### Heroku
 
