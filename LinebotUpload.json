@@ -2,7 +2,7 @@
   "type": "service_account",
   "project_id": "linebotupload",
   "private_key_id": "(Your_Private_Key_ID)",
-  "private_key": "-----BEGIN PRIVATE KEY-----\ (Your_Private_Key)\n-----END PRIVATE KEY-----\n",
+  "private_key": "(Your_Private_Key)",
   "client_email": "linebotupload@linebotupload.iam.gserviceaccount.com",
   "client_id": "(Your_Client_ID)",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
